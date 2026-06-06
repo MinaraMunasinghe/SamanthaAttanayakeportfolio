@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Digital Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="glass container">
+        <div class="logo">
+            <span class="accent-text">Portfolio</span>.
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#certificates">Experiences</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Performances</a></li>
+                <li><a href="#activities">Contributions</a></li>
+            </ul>
+        </nav>
+        <div class="theme-toggle" id="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="hero-content animate-fade">
+                    <h1>Hi, I'm <span class="accent-text">Samantha</span></h1>
+                    <p id="hero-description">
+                       I am a professional Western Music educator, creative artist, and performer, currently serving as a Western Music Teacher at GEMS School in Dubai. Holding a degree in Visual and Performing Arts, my career spans years of artistic expression and musical instruction, including classical performances in Sri Lanka. I bring an international standard of teaching to my students, blending deep knowledge of Western music theory and practical technique with a passion for the arts. Whether you are an absolute beginner or preparing for advanced musical milestones, my goal is to nurture your creative talents and build lasting musical confidence.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn">View Projects</a>
+                        <a href="mailto:samanthanilmini82@gmail.com?subject=Inquiry%3A%20CV%20Request%20from%20Portfolio&amp;body=Hi%20Samantha%2C%20I%20visited%20your%20portfolio%20and%20would%20love%20to%20see%20your%20CV.%20Please%20send%20it%20over%20when%20you%20have%20a%20moment!" class="btn btn-secondary">Request CV via Email</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/samantha-attanayake-91a050105/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/MinaraMunasinghe" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-image animate-fade">
+                    <div class="image-wrapper">
+                        <div class="outline-frame"></div>
+                        <img id="profile-pic" src="profile.png.jpeg" alt="Samantha">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="certificates" class="container">
+            <h2 class="section-title">Certificates <span class="accent-text">Timeline</span></h2>
+            <div class="timeline" id="experience-timeline">
+            </div>
+        </section>
+
+        <section id="skills" class="container glass">
+            <h2 class="section-title">Core <span class="accent-text">Expertise</span></h2>
+            <div class="skills-grid" id="skills-grid">
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2 class="section-title">Performance <span class="accent-text">Gallery</span></h2>
+            <div class="projects-grid" id="projects-grid">
+            </div>
+        </section>
+
+        <section id="activities" class="container">
+            <h2 class="section-title">Professional <span class="accent-text">Contributions</span></h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <h3>Professional Growth (CPD)</h3>
+                    <ul class="activity-list">
+                        <li>
+                            <span class="activity-role">GEMS Compliance Training | Dubai</span>
+                            <span class="activity-date">2024</span>
+                            <p class="activity-note">Certified in Safeguarding & Child Protection, Effective Communication, Health & Safety, and Lockdown Policy.</p>
+                        </li>
+                        <li>
+                            <span class="activity-role">UNCC | Sustainable Development</span>
+                            <span class="activity-date">2023</span>
+                            <p class="activity-note">Completed international climate and education sustainability modules.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="activity-card">
+                    <h3>Event Directing & Ensembles</h3>
+                    <p class="activity-subtitle">School Productions & Ceremonies</p>
+                    <ul class="activity-list">
+                        <li>
+                            <span class="activity-role">Choral Director & Conductor</span>
+                            <span class="activity-date">2013 – Present</span>
+                            <p class="activity-note">Preparing student choirs for Annual Days, Graduation Ceremonies, and Investiture Events across UAE and Sri Lanka.</p>
+                        </li>
+                        <li>
+                            <span class="activity-role">Brass & Rock Band Manager</span>
+                            <span class="activity-date">2010 – Present</span>
+                            <p class="activity-note">Forming and training school bands for athletic meets, sports days, and public showcasess.</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="activity-card">
+                    <h3>Academic & Professional Credentials</h3>
+                    <ul class="activity-list">
+                        <li>
+                            <span class="activity-role">Trinity College London</span>
+                            <span class="activity-date">2011</span>
+                            <p class="activity-note">Theory of Music: Completed up to Grade 8.</p>
+                        </li>
+                        <li>
+                            <span class="activity-role">ABRSM (UK)</span>
+                            <span class="activity-date">2009</span>
+                            <p class="activity-note">Theory & Practical (Piano): Grade 5.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section">
+        <div class="container footer-content">
+            <div class="footer-main">
+                <h2 class="footer-heading">Get in <span class="accent-text">Touch</span></h2>
+                <div class="contact-links">
+                    <a href="mailto:minaramunasinghe28@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        samanthanilmini82@gmail.com
+                    </a>
+                    <a href="tel:+94711643437" class="contact-link">
+                        <i class="fas fa-phone"></i>
+                        +971 55 439 7696
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Minara. Built with <span style="color: #ff4d6d;">&hearts;</span> and Vanilla JS.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
